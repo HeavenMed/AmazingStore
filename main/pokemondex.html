@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazing , Bonjour</title>
-    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
-
-    <link rel="stylesheet" href="/style/inicio.css"> <!-- Serve para Conectar a pág html ao CSS-->
-
+    <link href="/style/pokemondex.css"  rel="stylesheet">
+    
+    <title>Document</title>
 </head>
 <body>
     <!-- Nav é o menu de navegação, será a barra padrão de navegação e busca do Amazing, presente em todas as pág html-->
@@ -59,7 +56,7 @@
 
         <div class="itensnav2"><p class="pnav2"> Casa </p> </div>
 
-        <div class="itensnav2"><a href="/main/pokemondex.html" class="pnav2">PokemonDex</a> </div>
+        <div class="itensnav2"><a href="" class="pnav2">PokemonDex</a> </div>
 
         <div class="itensnav2"><p class="pnav2"> Brinquedos </p> </div>
 
@@ -67,32 +64,20 @@
 
         <div class="itensnav2"><p class="pnav2"> Roupas </p> </div>
 
-        <div class="itensnav2"><p class="pnav2"> Atendimento ao Consumidor </p> </div>
+        <div class="itensnav2"><p class="pnav2"> Atendimento ao Consumidor </p></div>
+    
+    </nav>
 
         <!-- Fim do Guia de Navegação Padrão!-->
-
-    </nav>
-    <div id="sessão_inicial">
-        <div>
-            <h1> Bem vindo(a) a Amazing Store!</h1>
-            <h3> Uma página inspirada na Amazon apenas para fins de Estudo E Projeto!</h3>
-            <h4> Aproveite e Faça compras nessa loja imaginária e personalizada!</h4>
-            <div id="divbutton">
-                <div class="buttoninicial"><a>Login</a></div>
-                <div class="buttoninicial"><a>Cadastro</a></div>
-            </div>
-        </div>
-
-        <div>
-            <img id="caixas" src="/img/boxes.png" alt="caixas">
-        </div>
-    </div>
-
-
-    <footer>
-
-
-    </footer>
     
+        <div class="container">
+            <ul data-js="pokedex" class="pokedex">
+
+            </ul>
+        </div>
+
+
+
+        <script src="/js/pokemon.js"></script>
 </body>
 </html>

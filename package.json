@@ -1,0 +1,22 @@
+{
+  "name": "site-da-amazing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeavenMed/AmazingStore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeavenMed/AmazingStore/issues"
+  },
+  "homepage": "https://github.com/HeavenMed/AmazingStore#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
