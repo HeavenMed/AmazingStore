@@ -82,6 +82,9 @@ li {
 
 /* Parte CSS Do Buscador do Site */
 #buscador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color:#ffffff;
     border:solid 1px;
     border-radius:6px;
@@ -102,6 +105,7 @@ li {
 #btnBusca{
     text-align: center;
     align-items: center;
+    align-self: center;
     height: 30px;
 }
 /* Fim da Parte CSS Do Buscador do Site */
@@ -109,21 +113,33 @@ li {
 
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 55px;
     color:#232F3E;
-    margin: 35px;
+    margin: 55px;
+    font-family:  'Amazon Ember', sans-serif;
 }
 
 h3{
     text-align: center;
-    font-size: 25px;
+    font-size: 29px;
     color:#232F3E;
     margin: 30px;
+    font-family:  'Amazon Ember', sans-serif;
 }
 
 h4{
     text-align: center;
-    font-size: 24px;
+    font-size: 27px;
     color:#232F3E;
     margin: 30px;
+    font-family:  'Amazon Ember', sans-serif;
+}
+
+#sessão_inicial {
+display: flex ;
+flex-direction: row;
+}
+
+#caixas{
+    margin:30px
 }
