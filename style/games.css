@@ -1,0 +1,148 @@
+/* Guia de Navegação Padrão! */
+
+*, *::after, *::before
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family:  'Amazon Ember', sans-serif
+}
+
+a{ 
+    text-decoration: none;
+    color:#131921
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#ul1 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 0;
+    padding: 0;
+    background-color: #131921 ;
+    align-items: center;
+
+}
+
+.li1 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#cart{
+    align-items: center;
+    margin:10px;
+}
+
+
+#nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background-color:#333C4C;
+    margin: 0;
+    padding: 10px 30px;
+
+}
+.pnav1{
+    color: white;
+    font-size: 16px;
+    font-family:  'Amazon Ember', sans-serif;
+}
+
+.pnav3{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    align-self: center;
+    font-family:  'Amazon Ember', sans-serif;
+}
+
+
+.pnav2{
+    color: white;
+    font-size: 18px;
+    font-family:  'Amazon Ember', sans-serif;
+    transition: 0.9s;
+}
+
+/* Fim do Guia de Navegação Padrão! */
+
+
+
+
+
+/* Parte CSS Do Buscador do Site */
+#buscador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:#ffffff;
+    border:solid 1px;
+    border-radius:6px;
+    width:300px;
+}
+
+#Busca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:40px;
+    width:260px;
+}
+
+#btnBusca{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    height: 30px;
+}
+/* Fim da Parte CSS Do Buscador do Site */
+
+#listagames{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: #FAFAFA;
+    color: #131921;
+}
+
+#lootimg{
+    margin:30px;
+    width: 13%;
+}
+
+#containerlist{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: #131921 3px
+}
+
+.listaitens{
+    margin:10px;
+}
+
+.itemlist{
+    margin: 10px;
+}
