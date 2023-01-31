@@ -13,7 +13,7 @@ const gerarprodutos = () => {
 
     const listatotal = []
 
-    for(let i = 0 ; i < 16 ; i++) {
+    for(let i = 0 ; i <= 15 ; i++) {
         const produtocard = `
             <li>
             <h2> ${produtos_name[i]} </h2>
