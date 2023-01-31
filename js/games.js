@@ -9,16 +9,18 @@ const produtos_marca = ['Microsoft' , 'RockStarGames' , 'fORTNITE' , 'Rock' , 'E
 
 ]
 
+
 const gerarprodutos = () => {
 
     const listatotal = []
 
-    for(let i = 0 ; i <= 15 ; i++) {
+    for(let i = 1 ; i <= 15 ; i++) {
         const produtocard = `
-            <li>
-            <h2> ${produtos_name[i]} </h2>
-            <p>Custo com Desconto de Black Friday: ${produtos_valor[i]}</p>
-            <p> Marca : ${produtos_marca[i]}</p>
+            <li id="produtocard">
+                <img style="width: 150px;height 40%;" src="/img/${i}.jfif">
+                <h2> ${produtos_name[i]} </h2>
+                <p>Custo com Desconto de Black Friday: ${produtos_valor[i]}</p>
+                <p> Marca : ${produtos_marca[i]}</p>
             </li>
         `
         listatotal.push(produtocard)
